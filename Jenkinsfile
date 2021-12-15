@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Git checkout') {
             steps {
-                git branch: '*', url: 'https://github.com/sivap083/multibranch-pipeline-demo.git'
+                git branch: 'develop', url: 'https://github.com/sivap083/multibranch-pipeline-demo.git'
             }
         }
     }
